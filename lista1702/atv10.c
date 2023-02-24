@@ -1,22 +1,26 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+#define t 5
+
 
 int main() {
-    int array[5];
+    int array[t];
     int *ptr = array;
-
-    for (int i = 0; i < 5; i++) {
-        printf("Digite o valor para a posicao %d: ", i);
-        scanf("%d", ptr + i);
+    int i;
+    for ( i= 0; i < t ; i++) {
+        printf("digite um valor pra variavel %i:",i);
+        scanf("%d", (ptr+i));
+    
     }
+    dobrar(ptr);
 
-    printf("\nDobro dos valores lidos:\n");
-    for (int i = 0; i < 5; i++) {
-        printf("%d\n", *(ptr + i) * 2);
-    }
-
-    return 0;
 }
+void dobrar(int *p){
+    int i;
+        for ( i= 0; i < t ; i++) {
+        printf("\no dobro da variavel %i e igual: %d",i , *(p+i)*2);
+    
+    }
 
-
+}
