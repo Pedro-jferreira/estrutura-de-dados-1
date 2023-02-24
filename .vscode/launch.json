@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/pedro/isso ai/lista1702",
-      "program": "c:/Users/pedro/isso ai/lista1702/build/Debug/outDebug",
+      "cwd": "c:/Users/pedro/estrutura de dados 1/lista1702",
+      "program": "c:/Users/pedro/estrutura de dados 1/lista1702/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
